@@ -81,7 +81,7 @@ function App() {
                 ) }
 
                 {activeTab === 'add-expense' && (
-                    <ExpenseForm on addExpense={addExpense} />
+                    <ExpenseForm onAddExpense={addExpense} />
                 )}
                 {activeTab === 'expenses' && (
                     <ExpenseList

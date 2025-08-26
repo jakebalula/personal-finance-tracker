@@ -76,7 +76,7 @@ function ExpenseForm({onAddExpense}) {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="description">Description (Optional)</label>\
+                    <label htmlFor="description">Description (Optional)</label>
                     <input
                     type="text"
                     id="description"
