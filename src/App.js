@@ -19,7 +19,7 @@ function App() {
             setExpenses(JSON.parse(savedExpenses));
         }
         if (savedBudget) {
-            setBudget(parseFlaot(savedBudget));
+            setBudget(parseFloat(savedBudget));
         }
     }, []);
 
